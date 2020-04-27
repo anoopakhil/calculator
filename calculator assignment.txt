@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,b;
+    int result;
+    char e;
+    printf("\n entre the value of a");
+    scanf("%d",&a);
+
+    printf("\n select an operator");
+    scanf("%c",&e);
+
+    printf("\n entre the value of b");
+    scanf("%d,&b");
+switch(e)
+{
+    case '+': result=a+b;
+    printf("\n the sum a+b",result);
+    break;
+    case '-': result=a-b;
+    printf("\n the difference a-b",result);
+    break;
+    case '*': result=a*b;
+    printf("\n the product a*b",result);
+    break;
+    case '/': result=a/b;
+    printf("\n the product of a/b",result);
+    break;
+}
+getch();
+}
+
